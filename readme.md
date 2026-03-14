@@ -1,0 +1,1 @@
+With this app you can create categories to track your time with.

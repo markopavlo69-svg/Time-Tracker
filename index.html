@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Time Tracker</h1>
+    </header>
+
+    <main>
+        
+        <button class="add-btn">Add Item</button>
+        <div class="modal">
+            <label for="item-name">Name</label>
+            <input type="text" id="item-name" name="item-name">
+            <label for="item-category">Category</label>
+            <input type="text" id="item-category" name="item-category">
+            <label for="item-desc">Description</label>
+            <input type="text" id="item-desc" name="item-desc">
+            <button class="submit-btn">Submit</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+        <div class="card-container">
+            <div class="card"></div>
+        </div>
+
+        <div class="stats">
+            <h2>Stats:</h2>
+
+        </div>
+    </main>
+    
+
+
+    <script src="time_tracker.js"></script>
+</body>
+</html>
